@@ -684,6 +684,13 @@ module.exports = function(webpackEnv) {
       ? {
         react: 'react',
         'react-dom': 'react-dom',
+          'genversion': 'genversion',
+          'semantic-ui-react': 'semantic-ui-react',
+          'react-sortable-tree': 'react-sortable-tree',
+          'axios': 'axios',
+          'lodash': 'lodash',
+          'moment': 'moment',
+          'react-router-dom': 'react-router-dom'
       }
       : {},
     // Some libraries import Node modules but don't use them in the browser.
